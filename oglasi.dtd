@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT oglasi (automobil+)>
+<!ELEMENT automobil ( ime,stanje,marka, model, kilometraza,kubikaza,gorivo,cena ,opis, email,datum, brojoglasa)>
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT stanje (#PCDATA)>
+<!ELEMENT marka (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT kilometraza (#PCDATA)>
+<!ELEMENT kubikaza (#PCDATA)>
+<!ELEMENT gorivo (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ELEMENT opis (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT brojoglasa (#PCDATA)>
+<!ATTLIST Model tip CDATA #IMPLIED>
+<!ATTLIST Gorivo tng (da|ne) #IMPLIED>
+<!ATTLIST kilometraza jedinica (km) "km">
+<!ATTLIST kubikaza jedinica (cm3) "CM3">
+<!ATTLIST cena valuta (din|eur) "din">

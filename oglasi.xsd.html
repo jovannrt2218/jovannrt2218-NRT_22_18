@@ -1,0 +1,68 @@
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="oglasi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="automobil">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ime" type="xs:string" />
+              <xs:complexType name="cena">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+              <xs:element name="stanje" type="xs:string" />
+              <xs:element name="marka" type="xs:string" />
+              <xs:element name="model" type="xs:string" />
+              <xs:element name="kilometraza">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="jedinica" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="kubikaza">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="jedinica" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="gorivo" type="xs:string" />
+              <xs:element name="cena">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="valuta" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="opis" type="xs:string" />
+              <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                  <xs:minInclusive value="0"/>
+                  <xs:maxInclusive value="120"/>
+                </xs:restriction>
+              <xs:element name="email" type="xs:string" />
+              <xs:restriction base="xs:string"> 
+      <xs:pattern value="[^@]+@[^\.]+\..+"/> 
+    </xs:restriction> 
+              <xs:element name="datum" type="xs:string" />
+              <xs:element name="datum" type="xs:date"></xs:element>
+      <xs:element name="mesec" type="xs:month"></xs:element>
+       <xs:element name="dan" type="xs:day"></xs:element>
+              <xs:element name="brojoglasa" type="xs:unsignedInt" />
+              <xs:element name="kontakt" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE oglasi SYSTEM "oglasi.dtd">
+<oglasi>
+    <automobil>
+
+        <ime>Ford C-Max 2.0TDCI 136PS</ime>
+        <stanje>Polovno vozilo</stanje>
+        <marka>Ford</marka>
+        <model>C-Max 2007.</model>
+        <kilometraza jedinica ="km">161.200 km</kilometraza>
+        <kubikaza jedinica="cm3">1998 cm3</kubikaza>
+        <gorivo> Dizel </gorivo>
+        <cena valuta = "din">7.95504 din</cena>
+        <opis>
+  
+Restajling model sa najboljim motorom 136konja i stvarnih 161200KM.!
+
+Pali na dodir kljuca, trap kao nov, kvacilo mekano, u svaku brzinu ide sa makim prstom, klima odlicno hladi.
+Utegnut maksimalno.
+Gume kao nove sve 4.
+Dva kljuca.
+
+Kupcu na uvid slike prilikom kupovine u Italiji gde se vidi perfektno stanje bez ikakvog sredjivanja.
+
+ZVATI SVAKI DAN OD 10-22h.
+
+(Klikom na "Svi oglasi oglasivaca" mozete pogledati nasu kompletnu ponudu vozila). 
+
+   </opis>
+        <email> markojovanovic@gmail.com</email>
+        <datum> oglas vazi do 31.10.2022 </datum>
+        
+      <brojoglasa>20405410 </brojoglasa>
+    
+      
+    </automobil>
+    <automobil>
+
+        <ime>Kia pro_cee`d 1.4 GSL LX FRESH</ime>
+        <stanje>Polovno vozilo </stanje>
+        <marka>Kia</marka>
+        <model>pro_cee`d 2008.</model>
+        <kilometraza jedinica ="km">257.144 km</kilometraza>
+        <kubikaza jedinica="cm3">1396C </kubikaza>
+        <gorivo> benzin </gorivo>
+        <cena valuta = "din">7.95504 din</cena>
+        <opis>
+    Na prodaju Kia Pro Ceed 2008. godiste, u odlicnom stanju. Kupljen je od prvog vlasnika koji ga je za vreme garantnog roka odrzavao u ovlasćenom servisu.
+     U nasem vlasnistvu je skoro 5 godina i za to vreme je sluzio kao primarni porodicni automobil sto znaci da je zaista redovno odrzavan i pazen.
+    </opis>
+        <email>anapetrovic@gmail.com</email>
+        <datum> datum isteka oglasa je 11.11.2022 </datum>
+        <brojoglasa>20383206 </brojoglasa>
+    
+
+        
+    </automobil>
+
+
+
+
+
+    <automobil>
+        <ime> Audi A4 2.0  </ime>
+        <stanje> polovno vozilo</stanje>
+        <marka>audi</marka>
+        <model>A4.2.0</model>
+        <kilometraza jedinica ="km"> 210.000 km</kilometraza>
+        <kubikaza jedinica="cm3"> 1968 cm3</kubikaza>
+        <gorivo> dizel </gorivo>
+        <cena valuta="din">809.594din</cena>
+        <opis>
+            Auto u besprekornom stanju redovno odrzavan, vodi se na mene. Registrovan do kraja maja. Svi servisi radjeni na vreme posedujem servisnu knjizicu.
+    </opis>
+        <email>milanpetrovic@gmail.com</email>  
+        <datum>  23.05.2023.   </datum>
+ <brojoglasa>20439633 </brojoglasa>
+
+
+    </automobil>
+
+
+     
+    <automobil>
+        <ime>Mercedes Benz A 160 </ime>
+        <stanje>Polovno vozilo </stanje>
+        <marka>Mercedes Benz</marka>
+        <model>A 160</model>
+        <kilometraza jedinica ="km">111.636 km</kilometraza>
+        <kubikaza jedinica="cm3"> 1396 cm3 </kubikaza>
+        <gorivo> Dizel</gorivo>
+        <cena valuta="din"> 7.95504 din</cena>
+       
+        <opis>
+            Auto u odlicnom stanju 
+    </opis>
+        <email>milanjovanovic89@gmail.com</email>
+        <datum> datum isteka oglasa je 28.12.2022 </datum>
+            <brojoglasa>20559920 </brojoglasa>
+            
+
+</automobil>
+     
+</oglasi>
